@@ -1,4 +1,4 @@
-# PostCSS Japanese Stylesheets
+# PostCSS Japanese Stylesheets [![Build Status](https://travis-ci.org/ikkou/postcss-japanese-stylesheets.svg?branch=master)](https://travis-ci.org/ikkou/postcss-japanese-stylesheets)
 
 :japanese_goblin: [PostCSS] plugin for writing Japanese Stylesheets, especially for Japanese Traditional Colors.
 
