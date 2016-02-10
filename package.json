@@ -1,0 +1,32 @@
+{
+  "name": "postcss-japanese-stylesheets",
+  "version": "0.0.1",
+  "description": "PostCSS plugin for writing Japanese Stylesheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikkou/postcss-japanese-stylesheets.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "author": "ikkou <dev@ikkou.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikkou/postcss-japanese-stylesheets/issues"
+  },
+  "dependencies": {
+    "postcss": "^5.0.14"
+  },
+  "devDependencies": {
+    "babel": "^6.5.1",
+    "babel-register": "^6.5.1",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
