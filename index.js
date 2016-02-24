@@ -4,7 +4,7 @@ module.exports = postcss.plugin('postcss-japanese-stylesheets', function (opts) 
   opts = opts || {};
 
   return function (css) {
-    css.eachDecl(function transformDecl(decl) {
+    css.walkDecls(function transformDecl(decl) {
 
       // background
       decl.prop = decl.prop.replace('背景画像', 'background-image');
